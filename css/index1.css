@@ -1,0 +1,109 @@
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "MIcrosoft YaHei", sans-serif !important;
+    background-color: #F8F8F8;
+}
+
+.scenes-container {
+    width: 1190px;
+    margin: 40px auto;
+}
+
+.quality-container {
+    margin: 40px auto;
+}
+
+.index-nav-container {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.index-nav-container .title {
+    font-size: 18px;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+.index-nav-container .nav-item {
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.mf-shang-hei-regular {
+    font-family: "MFShangHei-Regular" !important;
+}
+
+.quality-area {
+    width: 100%;
+    padding: 11px 10px 10px;
+    background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-sizing: border-box;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.quality-card {
+    width: 33.3%;
+    height: 314px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    background: #fff;
+    -webkit-transition: background-color 500ms;
+    -ms-transition: background-color 500ms;
+    transition: background-color 500ms;
+}
