@@ -1,4 +1,19 @@
+.header-bar{
+    height: 230px;
+    background-color: #F5F5F5;
 
+}
+.header-bar .top-img{
+    position: absolute;
+    width: 126px;
+    height: 49px;
+    z-index: 2;
+    top: 9%;
+    left: 19%;
+}
+.header-bar .header-content{
+    margin: 0 20%;
+}
 .header-bar .header-bar-position {
     display: none;
     float: left;
