@@ -56,12 +56,14 @@ body {
 
 #page.index .index-container {
     margin: 0 auto;
-    width: 1190px;
+    width: 1120px;
 }
 
 .scenes-container {
-    width: 1190px;
-    margin: 40px auto;
+    position: relative;
+    width: 1120px;
+    left: 350px;
+    /*  margin: 40px auto; */
 }
 
 .quality-container {
