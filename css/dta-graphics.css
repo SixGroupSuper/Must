@@ -22,6 +22,7 @@ a{
     
 }
 .index-area .index-content{
+    overflow: hidden;
     width: 280px;
     height: 192px;
     /* border: 1px red solid; */
@@ -43,11 +44,21 @@ a{
 }
 /* 下部图片 */
 .index-area .index-TheTail{
+    overflow: hidden;
     width: 280px;
     height: 192px;
    /*  border: 1px red solid; */
 }
-
+.index-area .imgit{
+    width: 280px;
+    height: 192px;
+    transition: width 0.3s ease 0s;
+    transition: height 0.3s ease 0s;
+}
+.index-area .imgit:hover{
+    width: 285px;
+    height: 197px;
+}
 
 
 
@@ -81,6 +92,12 @@ a{
     box-sizing: border-box;
     padding: 2px 12px;
     height: 26px;
+}
+.category-nav-content-wrapper .nav-li:hover{
+    background-color: #FFA500;
+}
+.category-nav-content-wrapper .nav-li .nav-text:hover{
+    font-size: 15px;
 }
 .iconfontNew {
     
