@@ -62,7 +62,8 @@ body {
 .scenes-container {
     position: relative;
     width: 1120px;
-    left: 350px;
+    margin: 0 auto;
+    left: -2%;
     /*  margin: 40px auto; */
 }
 
